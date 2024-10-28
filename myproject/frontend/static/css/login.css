@@ -1,0 +1,85 @@
+body{
+    /* background-color:#F9A826; */
+  
+
+    
+}
+.login-dialog{
+  width: 60%;
+  background-color:#F9A826;
+  margin: auto;
+  height: 90vh;
+}
+.form-login{
+    width: 50%;
+    text-align: center;
+    display: block;
+    height: 50vh;
+    padding-top: 15px;
+    margin: auto !important;
+    margin-top: 5rem !important;
+}
+.login-btn{
+    background-color: white;
+    width: 100%;
+    color: #413e66;
+}
+
+.login-btn:hover{
+  color: #F9A826;
+}
+.verify-input{
+    width: 100%;
+    border: none;
+    
+
+}
+.verify-input:focus{
+border: none;
+outline: none;
+cursor: pointer;
+padding: 10px;
+}
+
+ ::placeholder{
+    padding-left: 7px;
+    color: #413e66;
+
+}
+label{
+    font-size: 20px;
+    color: #413e66;
+}
+
+form h1 {
+    color: #413e66;
+    text-transform: capitalize;
+    font-size:20px ;
+}
+
+@media (max-width: 811px) {
+    form h1 {
+      font-size: 20px;
+    }
+  }
+  .card-text p{
+    color: #413e66;
+    font-size: 15px;
+    text-transform: capitalize;
+
+  }
+
+  .card-text p a {
+    color: white;
+    font-size: 15px;
+    padding-left: 6px;
+    
+    
+  }
+
+  .card-text p:first-child{
+    margin-top: 7px;
+  }
+   option:hover {
+    background-color: red !important;
+  }
